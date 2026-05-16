@@ -1,0 +1,32 @@
+# Node & Frontend
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Java & Backend
+target/
+*.jar
+*.exe
+*.log
+temp-uploads/
+.mvn/wrapper/maven-wrapper.jar
+
+# Capacitor / Android
+frontend/android/app/build/
+frontend/android/.gradle
+frontend/android/.idea
+frontend/android/local.properties
+frontend/android/app/src/main/assets/public/
+
+# IDE & OS Files
+.vscode/
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Executables & Binaries
+LAN_File_Share.exe
+*.zip
+*.tar.gz

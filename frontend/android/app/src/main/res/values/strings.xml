@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">LANFileShare</string>
+    <string name="title_activity_main">LANFileShare</string>
+    <string name="package_name">com.ajith.lanfileshare</string>
+    <string name="custom_url_scheme">com.ajith.lanfileshare</string>
+</resources>
