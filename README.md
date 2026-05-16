@@ -117,4 +117,4 @@ npx cap open android
 From Android Studio, click **Build > Build Bundle(s) / APK(s) > Build APK(s)**.
 
 ---
-*Developed with ❤️ by Thamizh.*
+*Developed by Thamizh.*
