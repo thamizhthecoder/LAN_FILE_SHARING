@@ -50,7 +50,7 @@ This project utilizes a decoupled architecture, served from a single executable 
 
 ```mermaid
 graph TD
-    subgraph Local Area Network (LAN)
+    subgraph "Local Area Network (LAN)"
         PC[PC (Server/Client)]
         Mobile[Mobile Device (Client)]
         Tablet[Tablet (Client)]
