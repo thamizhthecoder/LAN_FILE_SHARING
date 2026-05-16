@@ -51,17 +51,17 @@ This project utilizes a decoupled architecture, served from a single executable 
 ```mermaid
 graph TD
     subgraph "Local Area Network (LAN)"
-        PC[PC (Server/Client)]
-        Mobile[Mobile Device (Client)]
-        Tablet[Tablet (Client)]
+        PC["PC (Server/Client)"]
+        Mobile["Mobile Device (Client)"]
+        Tablet["Tablet (Client)"]
     end
 
     subgraph "LAN_File_Share.exe (Spring Boot)"
-        Web[Embedded Tomcat]
-        WS[WebSocket Handler]
-        mDNS[JmDNS Discovery]
-        Storage[Local Temp Storage]
-        React[React SPA (Static Files)]
+        Web["Embedded Tomcat"]
+        WS["WebSocket Handler"]
+        mDNS["JmDNS Discovery"]
+        Storage["Local Temp Storage"]
+        React["React SPA (Static Files)"]
     end
 
     PC <-->|8080| Web
